@@ -1,0 +1,3 @@
+[submodule "haproxy-errors"]
+	path = haproxy-errors
+	url = https://git.majava.org/config/haproxy-errors/assets.git
