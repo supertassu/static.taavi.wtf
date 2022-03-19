@@ -1,18 +1,20 @@
 [buildPlans.iosevka-taavi]
 family = "Iosevka Taavi"
-spacing = "fixed"
-serifs = "slab"
+spacing = "normal"
+serifs = "sans"
+no-cv-ss = true
+no-ligation = true
 
   [buildPlans.iosevka-taavi.variants]
   inherits = "ss14"
 
     [buildPlans.iosevka-taavi.variants.design]
     tilde = "low"
-    asterisk = "low"
+    asterisk = "hex-low"
     caret = "low"
     paren = "normal"
-    brace = "curly"
     number-sign = "slanted-open"
     at = "short"
-    dollar = "opencap"
-    percent = "rings"
+    dollar = "open-cap"
+    percent = "rings-segmented-slash"
+
